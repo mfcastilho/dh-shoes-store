@@ -1,0 +1,192 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 10px;
+
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.content{
+  width: 100%;
+  margin: 0 auto;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:0 4.5rem 0 1.9rem;
+}  
+
+.navegation-bar{
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+}
+
+
+.navegation-bar ul{
+  display: flex;
+  gap: 2.6rem;
+}
+
+.navegation-bar li{ 
+  list-style: none;
+  font-size: 2.4rem;
+}
+
+.navegation-bar a{
+  text-decoration: none;
+  color: #777777;
+  cursor: pointer;
+}
+
+
+.banner-box{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 6.8rem;
+}
+
+
+.banner-image{
+  width: 100%;
+}
+
+
+.product-offering-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+}
+
+.find-style{
+  text-align: center;
+}
+
+.main-title{
+  font-size: 6rem;
+  font-weight: 800;
+  line-height: 8.171rem;
+}
+
+.find-style img{
+  margin-left:5.4rem;
+}
+
+.find-style img:nth-child(1){
+  align-items: center;
+}
+
+.images-box{
+  margin-top:8.2rem;
+}
+
+.images-box img:nth-child(1){
+  position: relative;
+  bottom: 7.894rem;
+}
+
+
+
+.promotion{
+  width: 100%;
+  background-color: #C2185B;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 20.7rem;
+  padding: 0 8.4rem 15.2rem 10.2rem;
+}
+
+.promotion h2{
+  font-size: 4.4rem;
+  line-height: 5.992rem;
+  font-weight: 800;
+  color: #FFFFFF;
+  margin: 6.1rem 0 5.4rem 0;
+}
+
+.promotion-card-box{
+  display: flex;
+  justify-content: space-around;
+   
+}
+
+.product-card{
+  text-align: left;
+  background-color: #FFFFFF;
+}
+
+.product-card img{
+  width: 100%;
+}
+
+.product-description{
+  padding: 1.8rem 2.3rem 2.5rem 1.1rem;
+  font-size: 1.6rem;
+  line-height: 2.179rem;
+  font-weight: 600;
+}
+.product-description p:nth-child(2){
+  font-weight: 400;
+}
+
+
+.product-details{
+  display: flex;
+  padding: 9.2rem 10.5rem 9rem 12.7rem;
+  
+}
+
+.product-details img{
+
+}
+
+
+.left-part{
+  width: 50.7rem;
+  height: 103.6rem;
+  text-align: center;
+  margin-right: 2.8rem;
+}
+
+.left-part h2{
+  width: 58.5rem;
+  font-size: 3.9rem;
+  font-weight: 600;
+  line-height: 5.311rem;
+  text-align: left;
+  margin-bottom: 1.6rem;
+}
+
+.see-details{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40.3rem;
+  height: 9.9rem;
+  background-color: #C2185B;
+  margin-bottom: 5.6rem;
+}
+
+.see-details p{
+  font-size: 3.9rem;
+  font-weight: 600;
+  color: #EEEEEE;
+}
+
+
+
+
+
