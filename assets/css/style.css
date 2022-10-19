@@ -68,12 +68,13 @@ header{
   display: flex;
   flex-direction: column;
   align-items: center;
- 
 }
+
 
 .find-style{
   text-align: center;
 }
+
 
 .main-title{
   font-size: 6rem;
@@ -81,23 +82,26 @@ header{
   line-height: 8.171rem;
 }
 
+
 .find-style img{
   margin-left:5.4rem;
 }
+
 
 .find-style img:nth-child(1){
   align-items: center;
 }
 
+
 .images-box{
   margin-top:8.2rem;
 }
+
 
 .images-box img:nth-child(1){
   position: relative;
   bottom: 7.894rem;
 }
-
 
 
 .promotion{
@@ -107,8 +111,9 @@ header{
   flex-direction: column;
   text-align: center;
   margin-top: 20.7rem;
-  padding: 0 8.4rem 15.2rem 10.2rem;
+  padding: 0 10.4rem 15.2rem 12.2rem;
 }
+
 
 .promotion h2{
   font-size: 4.4rem;
@@ -118,21 +123,19 @@ header{
   margin: 6.1rem 0 5.4rem 0;
 }
 
-.promotion-card-box{
+
+.promotion-cards-box{
   display: flex;
   justify-content: space-around;
-  flex-wrap: wrap;
-   
+  flex-wrap: wrap;  
 }
+
 
 .product-card{
   text-align: left;
   background-color: #FFFFFF;
 }
 
-.product-card img{
-  
-}
 
 .product-description{
   padding: 1.8rem 1.8rem 2.5rem 1.1rem;
@@ -140,6 +143,8 @@ header{
   line-height: 2.179rem;
   font-weight: 600;
 }
+
+
 .product-description p:nth-child(2){
   font-weight: 400;
 }
@@ -147,12 +152,7 @@ header{
 
 .product-details{
   display: flex;
-  padding: 9.2rem 10.5rem 9rem 12.7rem;
-  
-}
-
-.product-details img{
-
+  padding: 9.2rem 10.5rem 9rem 12.7rem; 
 }
 
 
@@ -163,6 +163,7 @@ header{
   margin-right: 2.8rem;
 }
 
+
 .left-part h2{
   width: 58.5rem;
   font-size: 3.9rem;
@@ -172,6 +173,7 @@ header{
   margin-bottom: 1.6rem;
 }
 
+
 .see-details{
   display: flex;
   justify-content: center;
@@ -180,6 +182,11 @@ header{
   height: 9.9rem;
   background-color: #C2185B;
   margin-bottom: 5.6rem;
+  gap: calc(-2rem);
+}
+
+.see-details a{
+  text-decoration: none;
 }
 
 .see-details p{
@@ -187,7 +194,6 @@ header{
   font-weight: 600;
   color: #EEEEEE;
 }
-
 
 
 footer{
@@ -201,15 +207,18 @@ footer{
   padding: 0 14.8rem 0 7.6rem;
 }
 
+
 .logo-box{
   display: flex;
   flex-direction: column;
   font-size: 1.4rem;
 }
 
+
 .logo-box a{
   height: 12.3rem;
 }
+
 
 .logo-box p{
   width: 25.5rem;
@@ -219,29 +228,38 @@ footer{
   bottom: 2rem;
 }
 
+
 .categories{
   font-size: 1.6rem;
   margin-left: 12rem;
   padding: 5.6rem 0 5.5rem 0;
 }
 
+
 .categories h3{
   font-size: 2rem;
+
 }
+
 
 .categories ul, .institutional ul{
   list-style: none;
 }
 
+
 .categories a, .institutional a{
   text-decoration: none;
   color: #FFFFFF;
 }
+
+
 .institutional{
   font-size: 1.6rem;
   padding: 5.6rem 0 3.1rem 0;
 
 }
+
+
 .institutional h3{
   font-size: 2rem;
 }
