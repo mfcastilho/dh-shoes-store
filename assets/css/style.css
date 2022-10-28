@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
 
 *{
   margin: 0;
@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 
-html{
+:root{
   font-size: 10px;
 
 }
@@ -16,6 +16,7 @@ body{
 }
 
 .content{
+  max-width: 1440px;
   width: 100%;
   margin: 0 auto;
 }
@@ -84,6 +85,7 @@ header{
 
 
 .find-style img{
+  
   margin-left:5.4rem;
 }
 
@@ -127,7 +129,7 @@ header{
 .promotion-cards-box{
   display: flex;
   justify-content: space-around;
-  flex-wrap: wrap;  
+   flex-wrap: wrap; 
 }
 
 
@@ -182,7 +184,6 @@ header{
   height: 9.9rem;
   background-color: #C2185B;
   margin-bottom: 5.6rem;
-  gap: calc(-2rem);
 }
 
 .see-details a{
@@ -264,3 +265,39 @@ footer{
   font-size: 2rem;
 }
 
+
+@media screen and (max-width:1010px) {
+  
+  /* .find-style img:nth-child(1){
+    max-width: 30rem;
+  }
+  
+  .find-style img:nth-child(2){
+    max-width: 50rem;
+  } */
+  
+  /* .promotion-cards-box img{
+    width: 100%;
+  }
+
+  .product-card{
+    width: 22%;
+  }
+
+  .product-details img:nth-child(2){
+    width: 40rem;
+  }
+  .left-part{
+  width: 42rem;
+  }
+  
+  .left-part img{
+    width: 40rem;
+   
+    }
+
+    .left-part h2{
+      width: 40rem;
+     
+      } */
+}

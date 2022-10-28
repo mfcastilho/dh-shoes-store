@@ -1,0 +1,75 @@
+@import url("./global.css");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
+
+:root{
+  font-size: 10px;
+}
+
+main{
+  width: 100%;
+  margin: 5.9% 0;
+  display: flex;
+  justify-content: center;
+}
+
+.main-section-box{
+  width: 64.9rem;
+  height: 74vh;
+  border: 1px solid #9B9B9B;
+  box-shadow: 2px 2px 7px 1px rgba(0, 0, 0, 0.25);
+}
+
+
+.main-section-box h1{
+  font-size: 3.9rem;
+  font-weight: 600;
+  color: #575757;
+  text-align: center;
+  margin: 3rem 0;
+}
+
+
+.work-with-us-form{
+  display: flex;
+  flex-direction: column;
+  padding: 0 5.5rem;
+}
+
+.work-with-us-form label{
+  margin-bottom: 0.3rem;
+}
+
+.work-with-us-form input{
+  margin-bottom: 1.5rem;
+}
+
+.input-wrapper{
+  display: flex;
+  flex-direction: column;
+  font-size: 1.8rem;
+  color: #9B9B9B;
+  margin: 0 auto;
+  width: 100%;
+  font-weight: 700;
+}
+
+.input-wrapper input{
+  color: #9B9B9B;
+  height: 2.6rem;
+}
+
+.departaments{
+  font-size: 1.8rem;
+  color: #9B9B9B;
+  margin: 0 auto;
+  width: 100%;
+  font-weight: 700;
+}
+
+
+.availability{
+  display: flex;
+  flex-direction: column;
+  
+} 
