@@ -52,6 +52,10 @@ header{
   cursor: pointer;
 }
 
+.navegation-bar a:hover{
+  border-bottom: 2px solid #C2185B;
+}
+
 
 .banner-box{
   display: flex;
