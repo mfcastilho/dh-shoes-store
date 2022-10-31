@@ -31,20 +31,20 @@
           <div class="input-wrapper">
 
             <label for="name">Nome</label>
-            <input type="text" name="name" id="name">
+            <input type="text" name="name" id="name" required>
 
             <label for="email">Email</label>
-            <input type="email" name="email" id="email">
+            <input type="email" name="email" id="email" required>
 
             <label for="telphone">Telefone</label>
-            <input type="tel" name="telphone" id="telphone">
+            <input type="tel" name="telphone" id="telphone" required>
 
             <label for="departament">Departamentos</label>
 
-            <select class="select-departaments" name="select-departaments">
+            <select class="select-departaments" name="select-departaments" required>
               <option  id="finance" value="dpto_financeiro">Financeiro</option>
               <option id="accounting" value="dpto_contabilidade">Contabilidade</option>
-              <option id="human-resources" value="resursos_humanos">Recursos Humanos</option>
+              <option id="human-resources" value="resursos_humanos" selected>Recursos Humanos</option>
               <option id="other" value="outro_dpto">Outro</option>
             </select>
 
@@ -56,7 +56,7 @@
             <span class="availability-title" for="availability">Disponibilidade</span>           
             <div class="checkbox-container">
               
-              <input type="checkbox" name="full" value="Integral" id="full">
+              <input type="checkbox" name="full" value="Integral" id="full" checked>
               <label for="full">Integral (8h)</label>
 
               <input type="checkbox" name="part-time" value="meio-periodo" id="part-time">
@@ -70,7 +70,7 @@
             <div class="the-best-way-box">
               <span>Qual a melhor forma para entrarmos em contato com você?</span>
 
-              <input type="radio" id="email" name="radio">
+              <input type="radio" id="email" name="radio" checked>
               <label for="email">Email</label>
 
               <input type="radio" id="tel" name="radio">
@@ -100,7 +100,7 @@
         </form>
       </section>
       <div class="whatsapp-square">
-          
+          <a href="https://api.whatsapp.com/send?phone=5511888888888&text=Compre%20na%20DH%20Store" target="_blank"></a>
       </div>
   
   
