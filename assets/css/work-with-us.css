@@ -173,7 +173,7 @@ form button:hover{
 
 .msg-box textarea{
   width: 100%;
-  height: 14.8vh;
+  min-height: 14.8vh;
   resize: vertical;
 }
 
