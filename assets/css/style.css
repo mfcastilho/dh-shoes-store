@@ -49,10 +49,13 @@ header{
   text-decoration: none;
   color: #777777;
   cursor: pointer;
+  transition: .6s all;
 }
 
 .navegation-bar a:hover{
   border-bottom: 2px solid #C2185B;
+  font-size: 2.45rem;
+  padding-left: 0;
 }
 
 
@@ -270,7 +273,7 @@ footer{
 }
 
 
-@media screen and (max-width:1010px) {
+@media (max-width:1010px) {
   
   /* .find-style img:nth-child(1){
     max-width: 30rem;
